@@ -1,5 +1,5 @@
 @echo off
-
+echo NOTICE: This project won't have TOR and won't route traffic through it
 echo Building the Go project...
 
 REM Ensure Go modules are tidy
