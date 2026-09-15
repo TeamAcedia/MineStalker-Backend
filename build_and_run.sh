@@ -35,10 +35,6 @@ fi
 sudo -v
 sudo systemctl enable --now tor
 
-echo "Starting server..."
-python3 server.py &
-SERVER_PID=$!
-
 echo "Running executable through torsocks..."
 torsocks ./minestalker
 
